@@ -1,0 +1,149 @@
+#como_ajudar{
+    background-image: url('../img/como_ajudar_main.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    width: 100%;
+}
+
+.container_como_ajudar{   
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.logo_como_ajudar{
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+#sendo_voluntario{
+    display: flex;
+    width: 100%;
+}
+
+.container_sendo_voluntario{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.texto_sendo_voluntario{
+    width: 50%;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem_sendo_voluntario{
+    width: 50%;
+    position: relative;
+}
+
+.imagem_sendo_voluntario img{
+    width: 100%;
+}
+
+.h2_sendo_voluntario{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #009900;
+    margin-bottom: 20px;
+
+}
+
+.p_sendo_voluntario{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+
+.btn_sendo_voluntario{
+    background: #4273b8;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-weight: 700;
+}
+
+.logo_sendo_voluntario{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.logo_empresa_parceira{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.logo_sendo_doador{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+@media (max-width:801px){
+    h1{
+        font-size: 3rem !important;
+    }
+
+    .texto_sendo_voluntario{
+        width: 90%;
+    }
+
+    .imagem_sendo_voluntario{
+        width: 90%;
+    }
+
+    .voluntario_texto{
+        margin-top: 50px;
+    }
+
+    .voluntario_btn{
+        margin-bottom: 50px;
+    }
+
+    .empresa_parceira{
+        display: flex;
+        flex-flow: column-reverse;
+    }
+
+    .parceira_texto{
+        margin-top: 50px;
+    }
+
+    .parceira_btn{
+        margin-bottom: 50px;
+    }
+
+    .doador_texto{
+        margin-top: 50px;
+    }
+
+    .doador_btn{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width:601px){
+    h1{
+        text-align: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+}

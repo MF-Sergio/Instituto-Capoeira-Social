@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerando Falcões</title>
+   
+    <!-----------------------------------------BOOTSTRAP ICONS-------------------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!----------------------------------------CSS CUSTOMIZADO--------------------------------------->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/como_ajudar.css">
+
+    <script src="./js/index.js" defer></script>
+</head>
+<body>
+
+  <!----------------------------------------------NAVBAR------------------------------------------------->
+  <header id="header">
+    <a ref="" id="logo"><img class="img_logo" src="./img/logo_main_sobre-removebg-preview.png" alt=""></a>
+   
+    <nav id="nav">
+        <ul id="menu">
+            <li><a class="a_menu" href="index.html">Início</a></li>
+
+            <li class="li">
+                <a class="a_menu" id="link_dropdown" href="#" style="display: flex; align-items: center;">Institucional<i id="icone_dropdown" style="margin-left: 8px;" class="bi bi-caret-down-fill"></i> </a>
+                <ul class="ul_dropdown hidden">
+                  <li class="li_dropdown"><a class="a_dropdown" href="./sobre_nos.html">Sobre nós</a></li>
+                  <li class="li_dropdown"><a class="a_dropdown" href="./atuacao.html" >Atuação</a></li>
+                  <li class="li_dropdown"><a class="a_dropdown" href="#" >Transparência</a></li>
+                  <li class="li_dropdown"><a class="a_dropdown" href="./certificacoes.html">Certificações</a></li>
+                </ul>
+            </li>
+
+            <li class="li">
+                <a class="a_menu" id="link_dropdown2" href="#" style="display: flex; align-items: center;">Projetos<i id="icone_dropdown2" style="margin-left: 8px;" class="bi bi-caret-down-fill"></i> </a>
+                <ul class="ul_dropdown2 hidden">
+                  <li class="li_dropdown2"><a class="a_dropdown2" href="pec.html">Polo Esportivo Cultural - PEC</a></li>
+                  <li class="li_dropdown2"><a class="a_dropdown2" href="qualificacao_profissional.html">Qualificação Profissional</a></li>
+                  <li class="li_dropdown2"><a class="a_dropdown2" href="programa_eu_lidero.html">Programa Eu Lidero</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="a_menu" href="./como_ajudar.html">Como ajudar?</a>
+            </li>
+            <li><a class="a_menu" href="./doar.html">DOAR</a></li>      
+        </ul>
+    </nav>
+    <button id="btn_mobile">
+      <i class="bi bi-list" style="font-size: 28px; color: white;" onclick="changeIcon(this)"></i>
+      <!-- <span id="hamburger" class="hamburger"></span> -->
+  </button>
+  </header>
+   <!------------------------------------------------FECHA NAVBAR-------------------------------------------->
+
+   <!------------------------------------------------MAIN------------------------------------------------->
+   <main id="como_ajudar">
+      <div class="container_como_ajudar">
+        <h1 data-anime="up">Como ajudar?</h1>
+        <img class="logo_como_ajudar" data-anime="up" src="./img/logo_main_sobre-removebg-preview.png" alt="" style="width: 350px;">
+      </div>
+   </main>
+    <!---------------------------------------------FECHA MAIN-------------------------------------------->
+
+
+    <section id="sendo_voluntario">
+      <div class="container_sendo_voluntario">
+        <div class="texto_sendo_voluntario voluntario_texto">
+          <h2 class="h2_sendo_voluntario" data-anime="up">Sendo Voluntário</h2>
+          <p class="p_sendo_voluntario" data-anime="up">Com o seu engajamento, realizamos projetos e <br> ações que promovem o bem-estar, a inclusão <br> social e o desenvolvimento sustentável da <br> comunidade.</p>
+          <a class="btn_sendo_voluntario voluntario_btn" href="https://voluntariado.com.br/ong/associacao-cultural-desportiva-sapucaiense-de-capoeira-1" target="_blank" data-anime="up">SEJA UM VOLUNTÁRIO</a>
+        </div>
+        <div class="imagem_sendo_voluntario">
+          <img src="./img/sendo_voluntario.png" alt="">
+          <img class="logo_sendo_voluntario" data-anime="up" src="./img/logo_main_sobre-removebg-preview.png" alt="" style="width: 350px;">
+        </div>
+      </div>
+    </section>
+
+
+    <section id="sendo_voluntario">
+      <div class="container_sendo_voluntario empresa_parceira">
+        <div class="imagem_sendo_voluntario">
+          <img src="./img/empresa_parceira.png" alt="">
+          <img class="logo_empresa_parceira" data-anime="up" src="./img/logo_main_sobre-removebg-preview.png" alt="" style="width: 350px;">
+        </div>
+        <div class="texto_sendo_voluntario parceira_texto">
+          <h2 class="h2_sendo_voluntario" data-anime="up">Empresa Parceira</h2>
+          <p class="p_sendo_voluntario" data-anime="up"> <!--<span style="color: red;">TEXTO ESTÁ REPETIDO</span>--> Com o seu engajamento, realizamos projetos e <br> ações que promovem o bem-estar, a inclusão <br> social e o desenvolvimento sustentável da <br> comunidade.</p>
+          <a class="btn_sendo_voluntario parceira_btn" href="https://wa.me/message/CSMBPK37AGSNF1" target="_blank" data-anime="up">SEJA UM PARCEIRO</a>
+        </div>   
+      </div>
+    </section>
+
+
+    <section id="sendo_voluntario">
+      <div class="container_sendo_voluntario">
+        <div class="texto_sendo_voluntario doador_texto">
+          <h2 class="h2_sendo_voluntario" data-anime="up">Sendo Doador</h2>
+          <p class="p_sendo_voluntario" data-anime="up">Sua doação é a chama que mantém o Instituto <br> Capoeira Social atuando. Com sua contribuição, <br> levamos esperança, assistência e oportunidades <br> para aqueles que mais precisam.</p>
+          <a class="btn_sendo_voluntario doador_btn" href="https://capoeirasocial.apoiar.co/1" target="_blank" data-anime="up">FAÇA SUA DOAÇÃO</a>
+        </div>
+        <div class="imagem_sendo_voluntario">
+          <img src="./img/sendo_doador.png" alt="">
+          <img class="logo_sendo_doador" data-anime="up" src="./img/logo_main_sobre-removebg-preview.png" alt="" style="width: 350px;">
+        </div>
+      </div>
+    </section>
+
+   
+
+    <!-------------------------------------------FOOTER-------------------------------------------------->
+    <footer id="footer">
+      <div class="container1_footer"  data-anime="up">
+          <h2 class="h2_footer"><span class="span_footer">#VamosJuntos.</span> Fale com a gente.</h2>
+          <!-- <p style="color: red;"><i class="bi bi-shop"></i>AQUI VAI O ENDEREÇO</p> -->
+      </div>
+      <div class="container2_footer" data-anime="up">
+        <div style="display: flex; gap: 15px;">
+          <a href="https://api.whatsapp.com/message/4FSMGOGVSZM7O1?autoload=1&app_absent=0" target="_blank"><i class="bi bi-whatsapp" style="color: white;"></i></a>
+          <a href="https://www.instagram.com/instituto_capoeirasocial?utm_medium=copy_link" target="_blank"><i class="bi bi-instagram" style="color: white;"></i></a>
+          <a href="https://www.facebook.com/Institutocapoeirasocial/" target="_blank"><i class="bi bi-facebook" style="color: white;"></i></a>
+          <a href="https://www.youtube.com/channel/UC7RfnnHLtkyjpwYMmwCwyJA" target="_blank"><i class="bi bi-youtube" style="color: white;"></i></a>
+          <a class="btn_main" href="https://capoeirasocial.apoiar.co/1" target="_blank">Doar!</a>
+        </div>
+       
+        <div class="tel_email_footer" >
+          <div class="contatos_footer">
+            <i class="bi bi-telephone"></i> 
+            <p>(51) 99704-7480</p>
+          </div>
+          <div class="contatos_footer">
+            <i class="bi bi-envelope"></i>
+            <p> institutocapoeirasocial@gmail.com</p>
+          </div>
+        </div>
+    </div> 
+    </footer>
+    <a href="https://api.whatsapp.com/message/4FSMGOGVSZM7O1?autoload=1&app_absent=0" target="_blank"><img class="link_whats" src="/img/link_whatsapp.png" alt=""></a>
+    <!-------------------------------------FECHA FOOTER-------------------------------------------------->
+  </body>
+</html>

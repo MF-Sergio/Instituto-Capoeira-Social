@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Option 2: Import via CSS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: #ffffff;
+}
+
+#main_eu_lidero{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
+}
+
+.main_container_eu_lidero{
+    /* border: 2px solid black;  */
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.main_texto_eu_lidero{
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.h1_eu_lidero{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.p_eu_lidero{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.main_video_eu_lidero{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:start;
+    gap: 50px;
+}
+
+.h2_eu_lidero{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.p_video_eu_lidero{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.video_eu_lidero_texto{
+    width: 450px;
+}
+
+.video_eu_lidero_iframe{
+    width: 450px;
+    display: flex;
+    justify-content: end;
+}
+
+iframe{
+    width: 100%;
+}
+
+#livros{
+    display: flex;
+    width: 100%;
+}
+
+.container_livros{
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    padding-inline: 4%;
+}
+
+.livros_texto{
+    /* border: 2px solid red; */
+    text-align: justify;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.p_livros{
+    font-size: 1.2rem;
+}
+
+
+.livros_imagem{
+    width: 100%;
+}
+
+.livros_imagem img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 801px){
+    .video_eu_lidero_texto{
+        width: 100%;
+    }
+    
+    .video_eu_lidero_iframe{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .h2_eu_lidero{
+        text-align: center;
+
+    }
+
+    .p_eu_lidero{
+        margin-bottom: 50px;
+    }
+
+    .container_livros{
+        padding-inline: 0%;
+    }
+
+    .main_container_eu_lidero{
+        width: 80%;
+    }
+    
+    .container_livros{
+        width: 80%;
+    }
+}
