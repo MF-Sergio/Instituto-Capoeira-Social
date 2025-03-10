@@ -259,6 +259,7 @@ h1 {
   flex-direction: column;
   gap: 20px;
   padding-inline: 20px;
+  margin-top: 50px;
 }
 
 .h2_integralidade {
@@ -278,11 +279,12 @@ h1 {
 }
 
 .containerimagem_integralidade {
-  width: 50%;
+  width: 40%;
 }
 
 .img_integralidade {
-  width: 100%;
+  width: 60%;
+  margin: 10px 0 10px 150px;
 }
 
 /**************ANIMAçÃO****************/
@@ -428,7 +430,7 @@ iframe {
 }
 
 #frase_de_efeito {
-  background: #009900;
+  background: #3a5e91;
   width: 100%;
   padding-block: 50px;
   display: flex;
@@ -498,6 +500,11 @@ iframe {
 
 .logo2_parceiros {
   width: 250px;
+}
+
+.logo_parceiros {
+  max-width: 360px;
+  max-height: 185px;
 }
 
 #nossas_redes_sociais {
@@ -637,6 +644,63 @@ iframe {
   position: fixed;
   bottom: 180px;
   right: 15px;
+}
+
+#doar {
+  background: #4273b8;
+  height: 100%;
+  padding: 100px 0;
+}
+
+#main_doar {
+  display: flex;
+  width: 100%;
+}
+
+.container_doar {
+  /* border: 2px solid black; */
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      45deg,
+      rgba(58, 90, 152.3),
+      rgba(58, 90, 152, 0.3)
+    ),
+    url("../img/doar_temporario.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  gap: 30px;
+}
+
+.h1_doar {
+  font-size: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.p_doar {
+  font-size: 1.2rem;
+}
+
+.btn_doar {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background: #e5e5e5;
+  border: 2px solid black;
+  color: #395387;
+  text-decoration: none;
+  padding: 23px 15px;
+  border-radius: 32px;
+  width: 250px;
+  height: 100px;
 }
 
 @media (max-width: 801px) {
