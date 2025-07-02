@@ -17,7 +17,7 @@ jobs:
       - name: 📤 Enviar arquivos via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp://46.202.145.118
+          server: 46.202.145.118
           username: u217495173
           password: Capoeira.123
           server-dir: public_html/
