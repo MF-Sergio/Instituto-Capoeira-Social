@@ -642,8 +642,14 @@ iframe {
 .link_whats {
   width: 65px;
   position: fixed;
-  bottom: 180px;
+  bottom: 25px;
   right: 15px;
+  transition: all 0.3s ease;
+}
+
+.link_whats:hover {
+  width: 80px;
+  transition: all 0.3s ease;
 }
 
 #doar {
